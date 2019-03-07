@@ -1,0 +1,92 @@
+.my-bg {
+	background-color: linen;
+}
+
+.my-orange {
+	background-color: #e74c3c;
+}
+
+.text-orange {
+	color: #e74c3c;
+}
+
+.shadows {
+	box-shadow: 0 3px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 4px 5px 0 rgba(0,0,0,0.2);
+}
+
+.text-shadows {
+	text-shadow: 2px 2px 10px rgba(0,1,2,0.74);
+}
+
+.nav-item {
+	font-size: 14px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.navbar-toggler {
+	padding: 2px 8px;
+}
+
+.navbar-toggler-icon {
+	width: 20px;
+}
+
+.social-media i {
+	padding: 8px 0;
+	font-size: 15px;
+}
+
+.social-media a {
+	color: #000;
+	padding-left: 15px;
+}
+
+.navbar-logo {
+	width: 100%;
+}
+
+.dropdown-item {
+	font-size: 0.8em;
+}
+
+#formPencarian input {
+	width: 150px;
+	margin-right: 8px;
+}
+
+#carousel, .navbar-brand {
+	display: none;
+}
+
+.card-name {
+	font-size: 1.1rem;
+}
+
+.card-price {
+	color: orange;
+	font-weight: bold;
+}
+
+#formPendaftaranUser button {
+	width: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+	img.navbar-logo {
+		width: 50%;
+	}
+
+	#formPencarian input {
+		width: 200px;
+	}
+
+	#carousel, .navbar-brand {
+		display: block;
+	}
+
+	#formPendaftaranUser button {
+		width: 15%;
+	}
+}
+
